@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../../../style/style.css">
+    <link rel="stylesheet" href="../../../style/header.css">
+    <link rel="stylesheet" href="../../../style/auth.css">
+    <link rel="stylesheet" href="../../../style/detail.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                   <img src="../../../media/logo-agromall.svg" alt="logo-agromall"> 
+                </div>
+                <ul class="header-contacts">
+                    <li>
+                        <a href="tel:+99670000000" class='header-contacts-link'>+99670000000</a>
+                    </li>
+                    <li>
+                        <a href="mailto:agromall@gmail.com" class='header-contacts-link'>agromall@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="nav">
+                <div class="callcenter-image">
+                    Консультация
+                    <img src="../../../media/callcenter-icon.svg" alt="callcenter">
+                </div>
+                <div class="nav-inner">
+                    <label for="search-input" class="search-inner">
+                        <input id="search-input" class="search-input" type="text" placeholder="Я ищу">
+                        <i class="search-icon"></i>
+                    </label>
+                    <div class="user-auth-btn">
+                        <a class="user-auth-link" href="/">Войти</a>
+                        <a class="user-auth-link" href="/">Регистрация</a>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="detail__up">
+                    <div class='detail__image-wrapper'>
+                        <div class='detail__image'>
+                            <img src="https://images.hibeta.com/pictures/restorants/2023/2/23/Show_123123333.webp" alt="product-img" />
+                        </div>
+                        <div class="quantityButton">
+                            <button type="button" class="decreaseButton"></button>
+                            <span class="quantityProduct">1</span>
+                            <button type="button" class="increaseButton"></button>
+                        </div>
+                        <button class="product__buy-btn">Купить</button>
+                    </div>
+                    <div class="detail__product-wrapper">
+                        <div>
+                            <h1 class='product__title'>Яблоко</h1>
+                            <table class='feature'>
+                                <tbody>
+                                     <tr>
+                                          <th>Дата публикации</th>
+                                          <td>13.03.23</td>
+                                      </tr>
+                                      <tr>
+                                          <th>Категории</th>
+                                          <td>Семена</td>
+                                      </tr>
+                                      <tr>
+                                          <th>Aртикул</th>
+                                          <td>100000</td>
+                                      </tr>
+                                      <tr>
+                                          <th>Урожайность</th>
+                                          <td>550 ц с га</td>
+                                      </tr>
+                                      <tr>
+                                        <th>Количество</th>
+                                        <td>1000 шт</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Город</th>
+                                        <td>Бишкек</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Номер телефона</th>
+                                        <td>+996 702 000000</td>
+                                    </tr>
+                                </tbody>
+                             </table>
+                        </div>
+                    </div>
+                </div>
+                <div class='comments'>
+                    <div class="comments__total-count">
+                        <div>Всего <span>5</span>  </div>
+                        <div class="sort-in-row">Сортировать по:
+                            <ul>
+                                <li class=" date active-desc"><span>дате</span></li>
+                                <li class=" rating"><span>рейтингу</span></li>
+                                <li class=" useful"><span>полезности</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class='comments__item'>
+                        <div class="comments__item-inner">
+                            <div class="comments__user">
+                                <div class="comments__user-img">
+                                    <img src="https://storage.delikateska.ru/cache/3/a/edff6b02-b78e-4ea5-8dc5-c4a31c5177e8.jpg/d44.webp" alt="user"/>
+                                </div>
+                                <div>
+                                    <p class="comments__user-name">Кругова Наталья</p>
+                                    <div class="comments__user-rating-wrapper">
+                                        <div class="comments__user-rating">
+                                        Отличный магазин!</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='comments__input-wrapper'>
+                                <div class='comments__input-wrapper'>
+                                    <textarea 
+                                        class='comments__item-textarea' 
+                                        type="text" 
+                                        readonly
+                                    
+                                    >A CSS comment is used to add explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet.</textarea>
+                                    <button 
+                                        class='comments__save-btn' 
+                                        type="submit">Сохранить</button>    
+                                </div>
+                            </div>
+                            <div class="count-blue"></div>
+                            <div class='comments__delete-btn'></div>
+                        </div>
+                        <div class="comments__item-inner">
+                            <div class="comments__user">
+                                <div class="comments__user-img">
+                                    <img src="https://storage.delikateska.ru/cache/3/a/edff6b02-b78e-4ea5-8dc5-c4a31c5177e8.jpg/d44.webp" alt="user"/>
+                                </div>
+                                <div>
+                                    <p class="comments__user-name">Кругова Наталья</p>
+                                    <div class="comments__user-rating-wrapper">
+                                        <div class="comments__user-rating">
+                                        Отличный магазин!</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='comments__input-wrapper'>
+                                <div class='comments__input-wrapper'>
+                                    <textarea 
+                                        class='comments__item-textarea' 
+                                        type="text" 
+                                        readonly
+                                    >A CSS comment is used to add explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet.</textarea>
+                                    <button 
+                                        disabled={isTextareDisabled}
+                                        ref={saveBtnRef} 
+                                        class='comments__save-btn' 
+                                        type="submit">Сохранить</button>    
+                                </div>
+                            </div>
+                            <div class="count-blue"></div>
+                            <div class='comments__delete-btn'></div>
+                        </div>
+                    </div>
+                    <form class="haha">
+                        <textarea 
+                            class='comments__textarea' 
+                            placeholder='Leave a comment' 
+                        ></textarea>
+                        <button disabled={isTextareDisabled} class='comments__add-btn' type='submit'>Add comment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <p class="copyright">© 2023 AgroMall. KYRGYZSTAN.BISHKEK</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
